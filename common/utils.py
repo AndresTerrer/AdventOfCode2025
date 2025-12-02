@@ -6,6 +6,12 @@ import numpy as np
 import re
 
 
+class Day:
+    def __init__(self, path: str):
+        self.path = path
+        pass
+
+
 def read_lines(text_file_path: str) -> list[str]:
     """
     read txt and return a list of lines
